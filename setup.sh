@@ -4,10 +4,10 @@ set -eu
 
 # Install zsh
 sudo apt update
-sudo apt install zsh
+sudo apt -y install zsh
 
 # Install tmux
-sudo apt install tmux
+sudo apt -y install tmux
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 # Install nvim
