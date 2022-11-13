@@ -3,6 +3,7 @@
 set -eu
 
 # Install zsh
+sudo apt update
 sudo apt install zsh
 
 # Install tmux
