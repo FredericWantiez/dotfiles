@@ -11,5 +11,5 @@ sudo apt -y install tmux
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 # Install nvim
-curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
-chmod u+x nvim.appimage
+curl -LO https://github.com/neovim/neovim/releases/download/v0.8.0/nvim-linux64.deb
+sudo apt -y install ./nvim-linux64.deb
