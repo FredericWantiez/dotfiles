@@ -18,3 +18,10 @@ sudo apt -y install ./nvim-linux64.deb
 
 # Packer for nvim
 git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+
+# Setting up nvim
+mkdir ~/.config/nvim
+cp -R config/nvim/* ~/.config/nvim/
+
+# Setting up tmux
+cp config/tmux.conf ~/.tmux.conf
